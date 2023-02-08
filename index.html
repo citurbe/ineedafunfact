@@ -1,0 +1,78 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>I Need a Fun Fact</title>
+        <meta property="og:url" content="https://ineedafunfact.com/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="I Need a Fun Fact">
+        <meta property="og:description" content="I need a fun fact">
+        <meta property="og:image" content="">
+        <style>
+            .main {
+            color: #666666;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            font-size: 95px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            letter-spacing: 1;
+            margin-bottom: 2px;
+            margin-left: 2px;
+            margin-right: 2px;
+            margin-top: 2px;
+            opacity: 1.00;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            text-align: left;
+            text-decoration: none;
+            text-indent: 0px;
+            text-transform: uppercase;
+        }
+        .credits {
+            position: absolute;
+            bottom: 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 class="main">One fun fact about me is...</h1>
+            <a href="./index.html"><h1 class="main" id="fun-fact"> </h1></a>
+            <p class="credits">Built by Craig Iturbe</p>
+        </div>
+        <script async>
+            var funFacts = [
+                "I have been to 48 states, but the last two aren't Alaska or Hawaii.",
+                "I have previously worked as a truck driver.",
+                "I have a license to practice dentistry, but I've never used it.",
+                "I have three older brothers and three younger sisters.",
+                "I once came in second on Teen Jeopardy!",
+                "My freshman year of college, the dorms were under construction, so I lived in a luxury hotel.",
+                "My freshman year of college, the dorms were under construction, so I lived in a tent.",
+                "My middle name is an anagram of my first name, but my parents didn't do that on purpose",
+                "I was born with one more rib than most people have",
+                "I went to circus camp as a kid, and can still juggle",
+                "you can see me in the google street view outside the empire state building",
+                "i can beat the original super mario bros in under four minutes",
+                "I have four pet turtles. You can probably guess their names",
+                "I eat raw onions as a snack",
+                "my childhood best friend is an actor in the mcu (no i'm not going to say who",
+                "I've broken the same bone three times in entirely unrelated accidents",
+                "I have no middle name",
+                "I have three middle names",
+                "My middle name is the same as my first name",
+                "I know all three verses of the us national anthem",
+                "I can play five musical instruments",
+                "I'm fluent in three languages",
+                "I have walked on hot coals barefoot",
+                "In college, I majored in puppeteering",
+                "in college, I studied insects, and a professor named a species of beetle after me",
+                "I have a pilot's license",
+               
+            ];
+            var idx = Math.floor(Math.random() * (funFacts.length));
+            document.getElementById("fun-fact").textContent = funFacts[idx];
+            
+           
+        </script>
+    </body>
+</html>
